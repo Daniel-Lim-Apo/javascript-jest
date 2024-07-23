@@ -1,4 +1,5 @@
 # javascript-jest
+
 javascript jest tutorial
 
 # Jest Examples Repository
@@ -13,9 +14,25 @@ Jest is a powerful, flexible, and easy-to-use testing framework. Whether you are
 
 ### Installation
 
-To install Jest in your project, use npm or yarn:
+#### To install Jest in your project, use npm or yarn:
 
 ```bash
+npm init -y
 npm install --save-dev jest
 # or
 yarn add --dev jest
+```
+
+#### Configure Jest: Add a test script to your package.json file:
+
+{
+"scripts": {
+"test": "jest"
+}
+}
+
+#### Run Tests: Execute the tests using the following command:
+
+```bash
+npm test
+```
