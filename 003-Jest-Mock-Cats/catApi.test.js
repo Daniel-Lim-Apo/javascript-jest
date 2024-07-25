@@ -14,10 +14,10 @@ describe("getCatImage", () => {
 
     const catImageUrl = await getCatImage();
 
-    // Remove de x at the end of the image url to pass through
+    // Remove the x at the end of the image url to pass through
     // expect(catImageUrl).toBe(mockResponse.data[0].url);
     expect(catImageUrl).toBe(
-      "https://cdn2.thecatapi.com/images/MTY3ODIyMQx.jpg"
+      "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
     );
 
     expect(axios.get).toHaveBeenCalledWith(
