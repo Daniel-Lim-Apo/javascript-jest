@@ -17,7 +17,7 @@ describe("getCatImage", () => {
     // Remove the x at the end of the image url to pass through
     // expect(catImageUrl).toBe(mockResponse.data[0].url);
     expect(catImageUrl).toBe(
-      "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+      "https://cdn2.thecatapi.com/images/MTY3ODIyMQx.jpg"
     );
 
     expect(axios.get).toHaveBeenCalledWith(
